@@ -360,7 +360,227 @@
             </div>
 
         </section>
+
+        <!-- ======= Book A Table Section ======= -->
+
+        <section id="book-a-table" class="book-a-table">
+            <div class="container" data-aos="fade-up">
+                <div class="section-title">
+                    <h3>Reservation</h3>
+                    <p>Book a Table</p>
+                    <div class="container mt-5">
+                    <form action="" class="php-email-form" role="form">
+                        <div class="row">
+                            <div class="col-lg-4 col md-6 form-group  mt-3 mt-md-0">
+                                <input type="text" name="name" id="name" placeholder="Name" data-rule="minlen:4" 
+                                    data-msg="Please enter at least 4 characters" required class="form-control">
+                                <div class="validate"></div>
+                            </div>
+                            <div class="col-lg-4 col md-6 form-group mt-3 mt-md-0">
+                                <input type="email" name="email" id="email" placeholder="Email" data-rule="email" 
+                                data-msg="Please enter a valid email" required class="form-control">
+                                <div class="validate"></div>
+                            </div>
+                            <div class="col-lg-4 col md-6 form-group  mt-3 mt-md-0">
+                                <input type="text" name="phone" id="phone" placeholder="Phone" data-rule="minlen:4" 
+                                data-msg="Please enter at least 4 characters" required class="form-control">
+                                <div class="validate"></div>
+                            </div>
+                            <div class="col-lg-4 col md-6 form-group mt-3 mt-md-0">
+                                <input type="date" name="date" id="date" required class="form-control">
+                                <small class="form-text text-muted">Please enter the date of your visit.</small> 
+                                <div class="validate"></div>
+                            </div>
+                            <div class="col-lg-4 col md-6 form-group  mt-3 mt-md-0">
+                                <input type="time" name="time" id="time" required class="form-control">
+                                <small class="form-text text-muted">Please enter the time of your visit.</small> 
+                                <div class="validate"></div>
+                            </div>
+                            <div class="col-lg-4 col md-6 form-group  mt-3 mt-md-0">
+                                <input type="number" name="prople" id="prople" placeholder="No. of People" 
+                                    data-rule="minlen:1" data-msg="Please enter at least 1 charter" required class="form-control">
+                                <div class="validate"></div>
+                            </div>
+                            <div class="col-lg-12 mt-3 form-group">
+                                <textarea class="form-control" name="message" rows="5" placeholder="Message" required></textarea>
+                                <div class="validate"></div>
+                            </div>
+                            <div class="text-center">
+                                <button type="submit"
+                                onclick="showAlert('Reservation has been successfully booked!')">
+                                    Book a Table
+                                </button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ======= Gallery Section ======= -->
+
+        <section class="gallery" id="gallery">
+            <div class="container" data-aos="fade-up">
+                <div class="section-title">
+                    <h3>Gallery</h3>
+                    <p>Check Our Restaurant</p>
+                </div>
+
+                <div class="container mt-5">
+                    <ul class="nav nav-tabs custom-tabs" id="galleryTabs" role="tablist">
+                        <li class="nav-item">
+                            <a href="#food" class="nav-link active" id="food-tab" data-toggle="tab" role="tab"
+                                aria-controls="food" aria-selected="true"> Food</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#ambience" class="nav-link" id="ambience-tab" data-toggle="tab" role="tab"
+                                aria-controls="ambience" aria-selected="false">Ambience</a>
+                        </li>
+                    </ul>
+
+                    <div class="tab-content mt-3" id="galleryTabContent">
+                        <div class="tab-pane fade show active" id="food" role="tabpanel" aria-labelledby="food-tab">
+                            <div class="row">
+                                <div class="col-md-4 gallery-item filter-food">
+                                    <img src="./assets/images/gallery1.jpeg" class="img-fluid" alt="">
+                                </div>
+                                <div class="col-md-4 gallery-item filter-food">
+                                    <img src="./assets/images/gallery2.jpeg" class="img-fluid" alt="">
+                                </div>
+                                <div class="col-md-4 gallery-item filter-food">
+                                    <img src="./assets/images/gallery3.jpeg" class="img-fluid" alt="">
+                                </div>
+                                <div class="col-md-4 gallery-item filter-food">
+                                    <img src="./assets/images/gallery4.jpeg" class="img-fluid" alt="">
+                                </div>
+                                <div class="col-md-4 gallery-item filter-food">
+                                    <img src="./assets/images/gallery5.jpeg" class="img-fluid" alt="">
+                                </div>
+                                <div class="col-md-4 gallery-item filter-food">
+                                    <img src="./assets/images/gallery6.jpeg" class="img-fluid" alt="">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="tab-pane fade" id="ambience" role="tabpanel" aria-labelledby="ambience-tab">
+                            <div class="row">
+                                <div class="col-md-4 gallery-item filter-ambience">
+                                    <img src="./assets/images/gallery7.jpeg" class="img-fluid" alt="">
+                                </div>
+                                <div class="col-md-4 gallery-item filter-ambience">
+                                    <img src="./assets/images/gallery8.jpeg" class="img-fluid" alt="">
+                                </div>
+                                <div class="col-md-4 gallery-item filter-ambience">
+                                    <img src="./assets/images/gallery9.jpeg" class="img-fluid" alt="">
+                                </div>
+                                <div class="col-md-4 gallery-item filter-ambience">
+                                    <img src="./assets/images/gallery10.jpeg" class="img-fluid" alt="">
+                                </div>
+                                <div class="col-md-4 gallery-item filter-ambience">
+                                    <img src="./assets/images/gallery11.jpeg" class="img-fluid" alt="">
+                                </div>
+                                <div class="col-md-4 gallery-item filter-ambience">
+                                    <img src="./assets/images/gallery12.jpeg" class="img-fluid" alt="">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+        <!-- ======= Contact Section ======= -->
+
+        <section id="contact" class="contact">
+            <div class="container" data-aos="fade-up">
+                <div class="section-title">
+                    <h3>Contact</h3>
+                    <p>Contact Us</p>
+                </div>
+
+                <div data-aos="fade-up" >
+                    <iframe style="border: 0; width: 100%; height: 350px;"
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3022.073292013073!2d-73.9854286845949!3d40.74881797932569!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c2598f3f3b3b3b%3A0x1b1b3b1b1b1b1b1b!2sEmpire%20State%20Building!5e0!3m2!1sen!2sus!4v1629783660006!5m2!1sen!2sus"
+                    frameborder="0" allowfullscreen></iframe>
+                </div>
+                <div class="container">
+                    <div class="row mt-5">
+                        <div class="col-lg-4">
+                            <div class="info">
+                                <div class="address">
+                                    <i class="bi bi-geo-alt-fill"></i>
+                                    <h4>Location:</h4>
+                                    <p>1234 Street Name, City Name, United States</p>
+                                </div>
+                                <div class="open-hours">
+                                    <i class="bi bi-clock-fill"></i>
+                                    <h4>Open Hours:</h4>
+                                    <p>
+                                        Monday-Saturday:<br>
+                                        11:00 AM - 23:00 PM
+                                    </p>
+                                </div>
+                                <div class="email">
+                                    <i class="icofont-envelope"></i>
+                                    <h4>Email:</h4>
+                                    <p>
+                                        <a href="mailto:email@example.com" class="text-decoration-none">
+                                            email@example.com
+                                        </a>
+                                    </p>
+                                </div>
+                                <div class="phone">
+                                    <i class="icofont-phone"></i>
+                                    <h4>Call:</h4>
+                                    <p>
+                                        <a href="tel:123456" class="text-decoration-none">123456
+                                        </a>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-8 mt-5 mt-lg-0">
+                            <form method="post" role="form" class="php-email-form">
+                                <div class="row">
+                                    <div class="col-md-6 form-group">
+                                        <input type="text" name="name" class="form-control" id="name" placeholder="Your Name"
+                                            required>
+                                    </div>
+                                    <div class="col-md-6 form-group mt-3 mt-md-0">
+                                        <input type="email" class="form-control" name="email" id="email" placeholder="Your Email"
+                                            required>
+                                    </div>
+                                </div>
+                                <div class="form-group mt-3">
+                                    <input type="text" class="form-control" name="subject" id="subject" placeholder="Subject"
+                                        required>
+                                </div>
+                                <div class="form-group mt-3">
+                                    <textarea class="form-control" name="message" rows="5" placeholder="Message"
+                                        required></textarea>
+                                </div>
+                                <div class="my-3">
+                                    <div class="loading">Loading</div>
+                                    <div class="error-message"></div>
+                                    <div class="sent-message">Your message has been sent. Thank you!</div>
+                                </div>
+                                <div class="text-center">
+                                    <button type="submit" onclick="showAlert('Thank you for contacting us!')">Send Message</button>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
     </main>
+
+    <script>
+        function showAlert(message) {
+            alert(message);
+        }
+    </script>
     
 </body>
 </html>
